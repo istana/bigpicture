@@ -8,13 +8,12 @@
 3. themeable, highly customizable
 4. intuitive text formatting or multimedia upload
 5. comfortable administration, statistics and monitoring interface
-
 6. content can be backed up to local computer easily, including multimedia
 7. the support for Markdown, Textile, HTML, plaintext and LaTeX formulas out of the box (both source and WYSIWYG)
-8. multimedia like image, audio, gallery are first class citizens like article,
-   uploading and processing of multimedia is easy and automatic
+8. multimedia like image, audio, gallery are first class citizens like article
 9. serialization to other formats - HTML with embedded images, ePub (native, not convert which is hard to handle),
    escaped shell sequence, JSON, XML, ...
+
 10. passive social functions - can see referrers, search engines, sends and receives pingbacks and webmentions
 11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API,
    keep videos synchronized with YouTube, comments
@@ -68,6 +67,29 @@ administration is the part where you as a content creator spend the most of time
 
 without proper administration the system is useless and fuck that, you will spend hours to do even simple things like formatting an article or deleting spam comments one by one, because there's no antispam and the sytem doesn't allow mass delete
 
+### 6. content can be backed up to local computer easily, including multimedia
+
+the content is the most important thing. It cannot get lost or get corrupted. It is fast to copy it to another machine or local computer
+
+i don't care if something is hard to extract, because it's stored in MySQL database. Fuck, just write the tools to make the problem trivial and easy
+
+### 7. the support for Markdown, Textile, HTML, plaintext and LaTeX formulas out of the box (both source and WYSIWYG)
+
+i like the choice. Markdown is great for technical texts and texts with a simpler formatting, but there's more. Also I'd like to write LaTeX formulas...The system renders the text in realtime. Writing in source code is a preffered way to write texts, but there must be also a WYSIWYG option
+
+HTML editors are horrible. Markdown is usually great, but boring and limiting after some time. Mixing it with HTML is...scary. Bbcode is dead
+
+### 8. multimedia like image, audio, gallery are first class citizens like article
+
+you can add images, audio, galleries like articles along with metadata and all that stuff. Tools are perfect, cropping image, thumbnails
+
+i'd like to add an image and not a empty article with attached image. That's weird, but quite common way to do these things. Do I really need to use Soundcloud to share my audio, because their interface is the best (and the only sane). Do I really need to upload video to YouTube, because custom video players are weird looking and don't work properly half of time? Not really anymore
+
+### 9. serialization to other formats - HTML with embedded images, ePub (native, not convert which is hard to handle), escaped shell sequence, JSON, XML, ...
+
+it's nice and essential to offer to serialize the content to formats which are easy to take offline and copy, HTML with embedded images and CSS, ePub. Also this is mostly a web CMS, but other portals are possible like shell (terminal) access, email access, irc access...
+
+i cannot write my frustrations to this point, because I've never seen it somewhere
 
 
 

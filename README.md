@@ -11,14 +11,12 @@
 6. content can be backed up to local computer easily, including multimedia
 7. the support for Markdown, Textile, HTML, plaintext and LaTeX formulas out of the box (both source and WYSIWYG)
 8. multimedia like image, audio, gallery are first class citizens like article
-9. serialization to other formats - HTML with embedded images, ePub (native, not convert which is hard to handle),
-   escaped shell sequence, JSON, XML, ...
-
+9. serialization to other formats - HTML with embedded images, ePub (native, not convert which is hard to handle)
 10. passive social functions - can see referrers, search engines, sends and receives pingbacks and webmentions
-11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API,
-   keep videos synchronized with YouTube, comments
-12. audit trail - see history of posts, pages, articles, ...
+11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API, keep videos synchronized with YouTube, comments
+12. audit trail - see history of posts, pages, articles
 13. antispam - bot called "assuming control" which handles junk and rate limiters everywhere
+
 14. embedded analytics, is aware of article or image
 15. multilanguage support
 16. heavy inclusion of metadata - OpenGraph, Twitter cards, Pinterest things, microformats, microdata
@@ -91,5 +89,28 @@ it's nice and essential to offer to serialize the content to formats which are e
 
 i cannot write my frustrations to this point, because I've never seen it somewhere
 
+### 10. passive social functions - can see referrers, search engines, sends and receives pingbacks and webmentions
+
+the system tracks passive social opportunities from http headers and supports pingbacks, webmentions and similar system-to-system technologies
+
+yaaay! why bother to write stuff, when I cannot see the reach? Actually I'd write even without it, but feedback is nice
+
+### 11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API, keep videos synchronized with YouTube, comments
+
+share the content on multiple sites like YouTube and Vimeo for video, soundcloud for audio, provide news on Facebook page and so on. Be like a big octopus with one head and lots of tentacles!
+
+because why not? at least for most of the stuff
+
+### 12. audit trail - see history of posts, pages, articles
+
+the system has an audit trail. Good and usable. When things go wrong, audit trail is a must. Or just to watch the changes
+
+I've never seen a good audit trail. Only like mediocre ones. I'm not surprised, because implementation is hard. Event bus? Proper granularity of classes? Classes cannot do too much (which is fine!)
+
+### 13. antispam - bot called "assuming control" which handles junk and rate limiters everywhere
+
+antispam is a must. Now in 2016 AI is so hyped along with chatbots - consider to surf the wave. Also a security and protection is inherited in the system. Use rate limiters
+
+there's no funnier thing than to see helpless wordpress blog to be spammed with links and fake comments. Or phpBB forums. Very "funny"
 
 

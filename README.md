@@ -17,15 +17,13 @@
 12. audit trail - see history of posts, pages, articles
 13. antispam - bot called "assuming control" which handles junk and rate limiters everywhere
 14. embedded analytics, is aware of article or image
-
 15. multilanguage support
 16. heavy inclusion of metadata - OpenGraph, Twitter cards, Pinterest things, microformats, microdata
     into pages, because SEO and we also want to be visible to the world
 17. private sections of the site (password protected)
 18. caching for pages and images
-19. independent of third parties, but possibility to use them. YouTube for videos, gists for source code, deviantart for images... 
-20. language analysis - detect the language of article, highlight unknown/unusual words as italic (e.g. LibreOffice), do spelling
-21. typography - detect double spaces and similar wrongs, replace quotes with language specific ones, but not in source code
+19. language analysis - detect the language of article, highlight unknown/unusual words as italic (e.g. LibreOffice), do spelling
+22. typography - detect double spaces and similar wrongs, replace quotes with language specific ones, but not in source code
 
 ## More Details
 
@@ -40,6 +38,8 @@ Anyways, I'm sure that I'm not the only one person on this planet not satisfied 
 the system has defined flows, use cases and a clear vision. Refactor regularly and delete and polish the code. Keep it simple, but functional like katana
 
 i've seen enough bloated software in my short life. Websites frozen in time, because the code and technology reached that critial point when adding or changing stuff gets very expensive (days or weeks of work at least)
+
+i'm lazy. You're lazy. I don't have time and mood to maintain dead weight if I know how to simplify it. Simpler code = less code = more fun and more agility. Also it's easier to keep the big picture in head
 
 ### 2. all data are serializable to JSON documents
 
@@ -97,9 +97,11 @@ yaaay! why bother to write stuff, when I cannot see the reach? Actually I'd writ
 5
 ### 11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API, keep videos synchronized with YouTube, comments
 
-share the content on multiple sites like YouTube and Vimeo for video, soundcloud for audio, provide news on Facebook page and so on. Be like a big octopus with one head and lots of tentacles!
+in the end the system is independent of third parties, but can share the content on multiple sites like YouTube and Vimeo for video, soundcloud for audio, images on Deviantart, provide news on Facebook page and so on. Be like a big octopus with one head and lots of tentacles!
 
 because why not? at least for most of the stuff
+
+also comments, there are comments and comments are aggregated also from 3rd party sites, because I'm lazy to browse 10 different sites
 
 ### 12. audit trail - see history of posts, pages, articles
 
@@ -121,6 +123,30 @@ Google analyics is fine I guess. While I never used it much, I always imagined m
 
 ### 15. multilanguage support
 
-internatiolization and localization are fun. Hard to do right - I like the approach of a full locale - language-country. User interface usually needs only a language except for situations like brazilian portugese language.
+internatiolization and localization are fun. Hard to do right - I like the approach of a full locale - language-country. User interface usually needs only a language except for situations like brazilian portugese language. Anyways UI shoould be in multiple languages, but also system can filter articles by language. There's another thing - Slovak and Czech languages are so close that is makes sense to show content in both languages for either locale. Small details, but important
+
+### 16. heavy inclusion of metadata - OpenGraph, Twitter cards, Pinterest things, microformats, microdata into pages, because SEO and we also want to be visible to the world
+
+findability is like the most important thing right now. Why to hide our awesome content? Also the system shows a preview of twitter cards or facebook so I can see that the cover image is ok.
+
+i'm frustrated only about microdata, because that spec is fucking long and complex and I don't know where it shows results. Like somewhere at Google search, maybe other services. We'll see
+
+### 17. private sections of the site (hidden from navigation or password protected)
+
+i like to write stuff that is made for certain person or small group of people. Like look what a bug. Or some really personal feelings. The system is for sharing, right?
+
+### 18. caching for pages and images
+
+ultimately the system is as fast as possible. Use caching, but use some easy and manageable way to do it
+
+### 19. language analysis - detect the language of article, highlight unknown/unusual words as italic (e.g. LibreOffice), do spelling
+
+provide luxury and automate everything until it pains and then a little more
+
+nobody wants to work with a shitty system and do the same things for more than year or two. Zen, remember, zen experience
+
+### 22. typography - detect double spaces and similar wrongs, replace quotes with language specific ones, but not in source code
+
+there are options to provide *automatic* luxury of typography as seen in books. Why automatic? UTF-8 table has like 20 different "-" and like a milion different quotes and apostrophes. The consistency is better looking than fancy quote here and there
 
 

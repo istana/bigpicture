@@ -94,7 +94,7 @@ i cannot write my frustrations to this point, because I've never seen it somewhe
 the system tracks passive social opportunities from http headers and supports pingbacks, webmentions and similar system-to-system technologies
 
 yaaay! why bother to write stuff, when I cannot see the reach? Actually I'd write even without it, but feedback is nice
-
+5
 ### 11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API, keep videos synchronized with YouTube, comments
 
 share the content on multiple sites like YouTube and Vimeo for video, soundcloud for audio, provide news on Facebook page and so on. Be like a big octopus with one head and lots of tentacles!
@@ -113,4 +113,8 @@ antispam is a must. Now in 2016 AI is so hyped along with chatbots - consider to
 
 there's no funnier thing than to see helpless wordpress blog to be spammed with links and fake comments. Or phpBB forums. Very "funny"
 
+### 14. embedded analytics, is aware of article or image
 
+belongs under 5., but is important enough to have own declaration. Analytics interface is essential to track the life of the web site and of the content. It serves also for our narcisstic side to show us how glorious we are. Also for seeing the impact of our troll article or our marketing campaign.
+
+Google analyics is fine I guess. While I never used it much, I always imagined much simpler interface and I couldn't work with that shit every day. Piwik is also fine, but the interface is too big and wasting space.

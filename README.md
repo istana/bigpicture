@@ -16,8 +16,8 @@
 11. active social functions - RSS exports, publish to Facebook or YouTube automatically via API, keep videos synchronized with YouTube, comments
 12. audit trail - see history of posts, pages, articles
 13. antispam - bot called "assuming control" which handles junk and rate limiters everywhere
-
 14. embedded analytics, is aware of article or image
+
 15. multilanguage support
 16. heavy inclusion of metadata - OpenGraph, Twitter cards, Pinterest things, microformats, microdata
     into pages, because SEO and we also want to be visible to the world
@@ -117,4 +117,10 @@ there's no funnier thing than to see helpless wordpress blog to be spammed with 
 
 belongs under 5., but is important enough to have own declaration. Analytics interface is essential to track the life of the web site and of the content. It serves also for our narcisstic side to show us how glorious we are. Also for seeing the impact of our troll article or our marketing campaign.
 
-Google analyics is fine I guess. While I never used it much, I always imagined much simpler interface and I couldn't work with that shit every day. Piwik is also fine, but the interface is too big and wasting space.
+Google analyics is fine I guess. While I never used it much, I always imagined much simpler interface and I couldn't work with that shit every day. Piwik is also fine, but the interface is too big, complex and wasting space. I imagine something more simpler, less "dashboardy".
+
+### 15. multilanguage support
+
+internatiolization and localization are fun. Hard to do right - I like the approach of a full locale - language-country. User interface usually needs only a language except for situations like brazilian portugese language.
+
+

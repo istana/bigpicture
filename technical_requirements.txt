@@ -6,3 +6,4 @@
 - really, UI must never be slow, no compromise - limit animations and transitions - they only masks data loading
 - no infinite loading circles - give feedback after 10 seconds - and handle network outages or stucks properly
 - use only strong ciphers and ideally TLSv1.2 ad newer (v1.3 by default) and offer HTTP2
+- never use Adobe (Macromedia) Flash or browser plugins

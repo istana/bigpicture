@@ -1,0 +1,23 @@
+# Architecture and Components
+
+## Renderer - renders source text (plaintext, Markdown, Textile) to HTML (presentation language), possibly shell escaped text and others. (@TODO:How to handle greyscale stuff? Handle it?)
+
+
+## Quasi routes
+
+PUT /upload {guid=c606d903-c314-4875-bade-7c9c7e37d62a}
+PUT /upload-resumable {guid=c606d903-c314-4875-bade-7c9c7e37d62a, part=xx, offset=yy}
+
+/admin/settings
+/admin/monitoring - index
+/admin/statistics - index
+
+standard Rails CRUD
+
+GET /admin/content/index
+GET /admin/content/new
+POST /admin/content/create
+...
+
+- split up settings and content creation (in comparison with PrestaShop)
+- add monitoring (performance (response times) and anomalies) and statistics (day, week, year, trends/anomalies)

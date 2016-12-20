@@ -1,6 +1,6 @@
 # Technical requirements
 
-- response time max 100ms, ideally 20ms (including TCP and TLS handshake) - TLSv1.3 has faster handshake than v1.2 (see cloudflare blog)
+- response time 20ms (including TCP and TLS handshake) - TLSv1.3 has faster handshake than v1.2 (see cloudflare blog), max 100ms (99%)
 - theming: two implementations - legacy one HTML4.1+CSS2.1+no Javascript (use forms), one modern reactive stuff, but fast
 - UI - UI must never be slow or stutter even a little bit (but you can add fullHD background videos to the theme later)
 - really, UI must never be slow, no compromise - limit animations and transitions - they only masks data loading
